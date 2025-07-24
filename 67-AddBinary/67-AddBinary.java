@@ -1,0 +1,16 @@
+// Last updated: 7/24/2025, 9:25:43 PM
+import java.math.BigInteger;
+class Solution {
+    public String addBinary(String a, String b) {
+
+        BigInteger num1=new BigInteger(a,2);
+        BigInteger num2=new BigInteger(b,2);
+
+        BigInteger sum=num1.add(num2);  //BigInteger should be added only by this
+
+        return sum.toString(2);
+        
+        
+        
+    }
+}
